@@ -6,7 +6,7 @@
 
 Unlike *Ajax*, **sata** returns a response in the URI as a query string containing a series of coded (or uncoded) key-value pairs in the URL, rather than returning a `.responseText` or `.responseXML`.
 
-# Sata (using dynamically generated HTML Form)
+# Sata (using a dynamically-built HTML Form)
 
 ```
 var sataForm = document.createElement('form');
