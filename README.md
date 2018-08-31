@@ -8,6 +8,7 @@ Unlike *Ajax*, **sata** returns a response in the URI as a series of coded or un
 
 # Sata (using dynamically generated HTML Form)
 
+```
 var sataForm = document.createElement('form');
 sataForm.setAttribute('method', 'post');
 sataForm.setAttribute('action', '/server-side-script.php');
@@ -27,3 +28,4 @@ checkAccountStatusForm.appendChild(sataData2);
 document.body.appendChild(sataForm);
 sataForm.submit();
 document.body.removeChild(sataForm);
+```
