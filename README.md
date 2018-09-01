@@ -4,11 +4,15 @@
 
 Like *Ajax*, **sata** is a *client to server to client* data transfer process.
 
-At the time of writing, **sata** does not have any obvious advantages over *Ajax* (but I would be delighted if I could think of a couple...)
+At the time of writing, **sata** does not have any obvious advantages over *Ajax*
+
+(But I would be delighted if I could think of a couple...)
 
 _____
 
 **sata** is a quick and easy alternative to *Ajax* which sends data from a client-side script to a server-side script. The server-side script then processes the data before sending the server-side script's response to the client and redirecting the browser back to the originating URL (or to a new URL).
+
+_____
 
 Unlike *Ajax*, **sata** does not return a `.responseText` or `.responseXML`.
 
@@ -18,6 +22,8 @@ Instead, it can:
  - return a response as a Session Variable in PHP
  - return a response as a URI query string containing a series of coded (or uncoded) key-value pairs
  - return a response as a cookie
+
+_____
 
 # Sata (using a dynamically-built HTML Form)
 
