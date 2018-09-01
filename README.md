@@ -1,10 +1,17 @@
 # sata
 
-**sata** is a *Synchronous Alternative to Ajax*
+**sata** is a *Sequential Alternative to Ajax*
 
-**sata** is a quick and easy (and *Ajax*-free) way to send data from a client-side script to be processed by a server-side script which then redirects the browser to a URL which contains the server-side script's response.
+**sata** is a quick and easy (and *Ajax*-free) way to send data from a client-side script to be processed by a server-side script which then redirects the browser back to the originating URL (or to a new URL) with the server-side script's response.
 
-Unlike *Ajax*, **sata** returns a response in the URI as a query string containing a series of coded (or uncoded) key-value pairs in the URL, rather than returning a `.responseText` or `.responseXML`.
+Unlike *Ajax*, **sata** does not return a `.responseText` or `.responseXML`.
+
+Instead, it can:
+
+ - return a response as `localStorage` or `sessionStorage` in Javascript
+ - return a response as a Session Variable in PHP
+ - return a response as a URI query string containing a series of coded (or uncoded) key-value pairs
+ - return a response as a cookie
 
 # Sata (using a dynamically-built HTML Form)
 
