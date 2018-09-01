@@ -2,7 +2,13 @@
 
 **sata** is a *Sequential Alternative to Ajax*
 
-**sata** is a quick and easy (and *Ajax*-free) way to send data from a client-side script to be processed by a server-side script which then redirects the browser back to the originating URL (or to a new URL) with the server-side script's response.
+Like *Ajax*, **sata** is a *client to server to client* data transfer process.
+
+At the time of writing, **sata** does not have any obvious advantages over *Ajax* (but I would be delighted if I could think of a couple...)
+
+_____
+
+**sata** is a quick and easy alternative to *Ajax* which sends data from a client-side script to a server-side script. The server-side script then processes the data before sending the server-side script's response to the client and redirecting the browser back to the originating URL (or to a new URL).
 
 Unlike *Ajax*, **sata** does not return a `.responseText` or `.responseXML`.
 
