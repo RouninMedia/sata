@@ -46,5 +46,4 @@ checkAccountStatusForm.appendChild(sataData2);
 
 document.body.appendChild(sataForm);
 sataForm.submit();
-document.body.removeChild(sataForm);
 ```
