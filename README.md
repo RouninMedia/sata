@@ -25,7 +25,7 @@ Instead, it can:
 
 _____
 
-# Ajax Equivalent to Sata (using a FormData Object and Ajax)
+# Standard Approach (using a FormData Object and Ajax)
 
 ```
 var myAjaxForm = new FormData();
