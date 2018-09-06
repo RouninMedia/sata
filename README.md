@@ -25,6 +25,20 @@ Instead, it can:
 
 _____
 
+# Ajax Equivalent to Sata (using a FormData Object and Ajax)
+
+```
+var myAjaxForm = new FormData();
+myAjaxForm.append('ajax-data-1', 'Some other data here');
+myAjaxForm.append('ajax-data-2', 'Some other data here');
+
+var myAjaxXHR = new XMLHttpRequest();
+myAjaxXHR.open('POST', '/server-side-script.php', true);
+myAjaxXHR.send(myAjaxForm);
+
+```
+_____
+
 # Sata (using a dynamically-built HTML Form)
 
 ```
