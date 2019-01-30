@@ -16,12 +16,12 @@ _____
 
 Unlike *Ajax*, **sata** does not return a `.responseText` or `.responseXML`.
 
-Instead, it can:
+Instead, it can ***C**reate, **R**ead, **U**pdate, **D**elete (CRUD)* the following:
 
- - return a response as `localStorage` or `sessionStorage` in Javascript
- - return a response as a Session Variable in PHP
- - return a response as a URI query string containing a series of coded (or uncoded) key-value pairs
- - return a response as a cookie
+ - a Session Variable in PHP
+ - a cookie
+ - `localStorage` or `sessionStorage` in Javascript
+ - a URI query string containing a series of coded (or uncoded) key-value pairs
 
 _____
 
